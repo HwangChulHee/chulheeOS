@@ -1,5 +1,10 @@
 # 🔒 감정 및 사건 기록 전면 비공개
-records/
+# 기존 records 디렉토리 전체 무시
+records/*
+
+# ✅ 인덱스 파일만 예외 처리
+!records/records_index.md
+
 
 # 🔐 민감한 내면 구조화 모듈 (개별 파일 단위로 관리)
 modules/*_private.md
